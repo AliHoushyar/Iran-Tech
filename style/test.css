@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "shabnam",sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: bisque;
+}
+
+.site-boxes{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.box{
+    width: 285px;
+    height: 250px;
+    background-color: cadetblue;
+    transition: ease-in-out 6.5s;
+    background-position: top;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+}
+
+.box1{
+    background: url(../images/webpage.jpg.jpeg);
+    background-size: cover;
+}
+
+.box:hover{
+    background-position: bottom;
+}
+
+.frame{
+    width: 305px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid #dddddd;
+}
+
+.frame-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.frame-text-comment{
+    color: #888a93;
+    font-size: 14px;
+}
+
+.frame-text-title{
+    font-weight: bold;
+    color: black;
+}
